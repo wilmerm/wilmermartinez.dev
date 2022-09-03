@@ -22,31 +22,33 @@ defineProps<{
         <a href="https://github.com/wilmerm/" class="btn btn-link text-secondary btn-lg fs-3 bi-github" rel="external"></a>
         <a href="https://www.linkedin.com/in/wilmermartinez/" class="btn btn-link text-secondary btn-lg fs-3 bi-linkedin" rel="external"></a>
       </div>
-      <div class="row mb-4">
-        <div class="col">
-          <div class="card me-3 w-100 shadow-sm card-languages">
-            <h2 class="card-header">Languages</h2>
-            <div class="card-body">
-              <div class="ms-2"><a href="https://www.python.org/" target="_blank" class="text-decoration-none">Python</a></div>
-              <div class="ms-2"><a href="https://www.typescriptlang.org/" target="_blank" class="text-decoration-none">TypeScript</a></div>
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col">
+            <div class="card me-3 w-100 shadow-sm card-languages">
+              <h2 class="card-header">Languages</h2>
+              <div class="card-body">
+                <div class="ms-2"><a href="https://www.python.org/" target="_blank" class="text-decoration-none">Python</a></div>
+                <div class="ms-2"><a href="https://www.typescriptlang.org/" target="_blank" class="text-decoration-none">TypeScript</a></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card me-3 w-100 shadow-sm card-framework">
-            <h2 class="card-header">Frameworks</h2>
-            <div class="card-body">
-              <div class="ms-2"><a href="https://www.djangoproject.com/" target="_blank" class="text-decoration-none">Django</a></div>
-              <div class="ms-2"><a href="https://vuejs.org/" target="_blank" class="text-decoration-none">Vue.js</a></div>
+          <div class="col">
+            <div class="card me-3 w-100 shadow-sm card-framework">
+              <h2 class="card-header">Frameworks</h2>
+              <div class="card-body">
+                <div class="ms-2"><a href="https://www.djangoproject.com/" target="_blank" class="text-decoration-none">Django</a></div>
+                <div class="ms-2"><a href="https://vuejs.org/" target="_blank" class="text-decoration-none">Vue.js</a></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card w-100 shadow-sm card-services">
-            <h2 class="card-header">Services</h2>
-            <div class="card-body">
-              <div class="ms-2"><a href="https://vercel.com/" target="_blank" class="text-decoration-none">Vercel</a></div>
-              <div class="ms-2"><a href="https://www.pythonanywhere.com" target="_blank" class="text-decoration-none">PythonAnywhere</a></div>
+          <div class="col">
+            <div class="card w-100 shadow-sm card-services">
+              <h2 class="card-header">Services</h2>
+              <div class="card-body">
+                <div class="ms-2"><a href="https://vercel.com/" target="_blank" class="text-decoration-none">Vercel</a></div>
+                <div class="ms-2"><a href="https://www.pythonanywhere.com" target="_blank" class="text-decoration-none">PythonAnywhere</a></div>
+              </div>
             </div>
           </div>
         </div>
