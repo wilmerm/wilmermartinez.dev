@@ -22,10 +22,10 @@ defineProps<{
         <a href="https://github.com/wilmerm/" class="btn btn-link text-secondary btn-lg fs-3 bi-github" rel="external"></a>
         <a href="https://www.linkedin.com/in/wilmermartinez/" class="btn btn-link text-secondary btn-lg fs-3 bi-linkedin" rel="external"></a>
       </div>
-      <div class="container">
-        <div class="row mb-4">
+      <div class="container my-5">
+        <div class="row">
           <div class="col">
-            <div class="card me-3 w-100 shadow-sm card-languages">
+            <div class="card2 me-3 w-100 card-languages">
               <h2 class="card-header">Languages</h2>
               <div class="card-body">
                 <div class="ms-2"><a href="https://www.python.org/" target="_blank" class="text-decoration-none">Python</a></div>
@@ -34,7 +34,7 @@ defineProps<{
             </div>
           </div>
           <div class="col">
-            <div class="card me-3 w-100 shadow-sm card-framework">
+            <div class="card2 me-3 w-100 card-framework">
               <h2 class="card-header">Frameworks</h2>
               <div class="card-body">
                 <div class="ms-2"><a href="https://www.djangoproject.com/" target="_blank" class="text-decoration-none">Django</a></div>
@@ -43,7 +43,7 @@ defineProps<{
             </div>
           </div>
           <div class="col">
-            <div class="card w-100 shadow-sm card-services">
+            <div class="card2 w-100 card-services">
               <h2 class="card-header">Services</h2>
               <div class="card-body">
                 <div class="ms-2"><a href="https://vercel.com/" target="_blank" class="text-decoration-none">Vercel</a></div>
@@ -53,7 +53,7 @@ defineProps<{
           </div>
         </div>
       </div>
-      <div class="mb-3">
+      <div class="container mb-3 px-md-5">
         <h2 class="fs-2 fw-bold">About me</h2>
         <div class="fs-4">
           <p>Hi! I'm Wilmer Martinez, web developer for almost a decade. I currently live in Punta Cana, on a small Caribbean island 🏝, with my wife and son.</p>
@@ -93,31 +93,44 @@ defineProps<{
 
 
 <style scoped>
-  .card a {
+  .card2 a {
     color: inherit;
+  }
+  .card2 a:hover {
+    font-weight: bold;
   }
   h2.card-header {
     font-size: 1.5rem;
+    font-weight: bold;
   }
-  .card {
+  .card2 {
     transition: all;
     transition-duration: .5s;
-    border: 2px solid #666666 !important;
     margin-bottom: 12px;
+    padding: 8px;
   }
-  .card:hover  {
-    box-shadow: 20px 40px #00000020 !important;
+  .card2:hover  {
+    text-shadow: 20px 20px 5px rgba(85, 85, 85, 0.26);
+  }
+  .card-languages {
+    transform: rotateZ(5deg);
+  }
+  .card-framework {
+    transform: rotateZ(-3deg);
+  }
+  .card-services {
+    transform: rotateZ(3deg);
   }
   .card-languages:hover {
-    transform: rotateZ(5deg) scale(120%);
+    transform: rotateZ(5deg) scale(150%);
     z-index: 999;
   }
   .card-framework:hover {
-    transform: rotateZ(-3deg) scale(120%);
+    transform: rotateZ(-3deg) scale(150%);
     z-index: 999;
   }
   .card-services:hover {
-    transform: rotateZ(3deg) scale(120%);
+    transform: rotateZ(3deg) scale(150%);
     z-index: 999;
   }
   .logo {
@@ -127,7 +140,7 @@ defineProps<{
   }
   .logo:hover {
     transform: rotateZ(5deg) scale(120%);
-    box-shadow: 10px 20px #00000020 !important;
+    box-shadow: 10px 20px 5px #00000020 !important;
   }
   .sheet {
     padding: 30px;
