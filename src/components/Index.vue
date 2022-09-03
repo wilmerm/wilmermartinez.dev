@@ -56,7 +56,7 @@ defineProps<{
       <div class="container mb-3 px-md-5">
         <h2 class="fs-2 fw-bold">About me</h2>
         <div class="fs-4">
-          <p>Hi! I'm Wilmer Martinez, web developer for almost a decade. I currently live in Punta Cana, on a small Caribbean island 🏝, with my wife and son.</p>
+          <p>Hi! I'm Wilmer Martinez, web developer for almost a decade. I currently live in Punta Cana, on a small caribbean island 🏝, with my wife and son.</p>
           <p>I started in software development with <strong>Python</strong>, developing tools to automate my own tasks and desktop applications with wxPython. Then I got to know the <strong>Django</strong> and since then I became a Full-Stack web developer when I also learned <strong>JavasScript</strong> and then <strong>Vue.js</strong>. 💪</p>
           <p>Besides programming, I like things like electronics, movies (especially dramas, science fiction and horror) and reading ❤. My favorite book character is Beremiz Samir, and three of my favorite writers are Jules Verne, Edgard Alan Poe, and Isaac Asimov.</p>
         </div>
