@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+
+body {
+  font-family: 'Uchen', serif;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;  
+}
